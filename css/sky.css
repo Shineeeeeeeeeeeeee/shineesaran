@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Chivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Chivo:ital,wght@0,100..900;1,100..900&family=Cutive&family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -114,6 +115,7 @@
   font-size: 100px;
   color: #F95803;
   font-family: "Chivo", sans-serif;
+  font-weight: black;
 }
 .hello h1 span {
   color: white;
@@ -209,7 +211,8 @@
   -o-object-fit: cover;
      object-fit: cover;
   overflow-y: visible;
-  overflow-x: visible;
+  -webkit-clip-path: inset(-15% 0 3% 0);
+          clip-path: inset(-15% 0 3% 0);
 }
 .about .about2 {
   width: 50%;
@@ -219,17 +222,26 @@
 .about .about2 .bichig {
   width: 100%;
   height: 50px;
-  background-color: #f95803;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.about .about2 .bichig .me1 {
+  color: #f95803;
 }
 .about .about2 .bichig1 {
   width: 100%;
-  height: 50px;
+  height: 25px;
   background-color: chartreuse;
+  font-family: "Cutive", serif;
 }
 .about .about2 .bichig2 {
   width: 100%;
-  height: 200px;
+  height: 130px;
   background-color: chocolate;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
 }
 .about .about2 .bichig3 {
   width: -moz-fit-content;
@@ -242,4 +254,10 @@
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: white;
+  margin-top: 20px;
+}
+.about .about2 .bichig3 .uusgalt {
+  width: 100%;
+  height: 100%;
+  background-color: #14e236;
 }/*# sourceMappingURL=sky.css.map */
