@@ -1,0 +1,73 @@
+.hello{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    // background-color: aqua;
+    margin-top: 50px;
+ 
+    
+    .zurag{
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        background-color: blue;
+        top: 300px;
+        left: 695px;
+        border-radius: 50%;
+       
+    }
+    h1{
+        font-size: 100px;
+        color: #F95803;
+        font-family: "Chivo", sans-serif;
+        span{
+            color: wheat;
+        }
+    }
+    
+    .ner{
+        width: 50%;
+        height: 50px;
+        // background-color: blueviolet;
+        margin-top: 50px;
+        font-size: 70px;
+        font-family: "Chewy", system-ui;
+        color: wheat;
+        .ungu1{
+            color: #F95803;
+            .gold{
+                color: wheat;
+            }
+            
+        }
+        .tseg{
+            color: #F95803;
+        }
+    }
+    .ner1{
+        width: 50%;
+        height: 50px;
+        // background-color: blueviolet;
+        margin-top: 50px;
+        font-size: 30px;
+        color: wheat;
+        font-family: "Cutive", serif;
+    }
+    .ner2{
+        width: 50%;
+        height: 50px;
+        background-color: blueviolet;
+        margin-top: 50px;
+    }
+    .ner3{ 
+        width: fit-content;
+        padding: 16px 32px;
+        background-color: blueviolet;
+        margin-top: 50px;
+    }
+    .zurag1{
+        width: 50%;
+        height: 100%;
+        background-color: brown;
+    }
+}
