@@ -64,6 +64,7 @@
 .maxwidth {
   max-width: 1400px;
   padding: 50px 150px;
+  margin: auto;
 }
 
 .hello {
