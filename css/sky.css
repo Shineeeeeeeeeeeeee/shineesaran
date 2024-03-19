@@ -18,7 +18,7 @@
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: black;
+  background-color: #000000;
   padding: 50px 150px;
 }
 .container .menu {
