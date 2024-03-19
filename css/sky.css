@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Chivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Chivo:ital,wght@0,100..900;1,100..900&family=Cutive&family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -88,7 +89,7 @@
   top: 300px;
   left: 695px;
   border-radius: 50%;
-  box-shadow: generator;
+  box-shadow: -9px -4px 24px 4px rgba(255, 105, 0, 0.72);
 }
 .hello .zurag .zurag0 {
   width: 100%;
@@ -96,13 +97,24 @@
   background-color: #F95803;
   border-radius: 50%;
 }
+.hello .zurag .zurag0 img {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow-y: visible;
+  overflow-x: visible;
+  right: 200px;
+  bottom: 270px;
+}
 .hello h1 {
   font-size: 100px;
   color: #F95803;
   font-family: "Chivo", sans-serif;
 }
 .hello h1 span {
-  color: wheat;
+  color: white;
 }
 .hello .ner {
   width: 50%;
@@ -110,37 +122,54 @@
   margin-top: 50px;
   font-size: 70px;
   font-family: "Chewy", system-ui;
-  color: wheat;
+  color: white;
 }
 .hello .ner .ungu1 {
   color: #F95803;
 }
 .hello .ner .ungu1 .gold {
-  color: wheat;
+  color: white;
 }
 .hello .ner .tseg {
   color: #F95803;
 }
 .hello .ner1 {
-  width: 50%;
+  width: 40%;
   height: 50px;
   margin-top: 50px;
-  font-size: 30px;
-  color: wheat;
+  font-size: 26px;
+  color: white;
   font-family: "Cutive", serif;
 }
 .hello .ner2 {
-  width: 50%;
+  width: 25%;
   height: 50px;
-  background-color: blueviolet;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.hello .ner2 .icon {
+  width: 50px;
+  height: 100%;
+  border: 1px solid #F95803;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hello .ner2 .icon i {
+  color: #F95803;
 }
 .hello .ner3 {
   width: -moz-fit-content;
   width: fit-content;
   padding: 16px 32px;
-  background-color: blueviolet;
+  background-color: #F95803;
   margin-top: 50px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 .hello .zurag1 {
   width: 50%;
