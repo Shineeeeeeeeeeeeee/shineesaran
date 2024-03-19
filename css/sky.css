@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+.hamgintomdiv {
+  width: 100%;
+  background-color: black;
+}
+
 .container {
   width: 100%;
   height: -moz-fit-content;
