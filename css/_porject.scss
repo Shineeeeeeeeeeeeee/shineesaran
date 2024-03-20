@@ -1,0 +1,51 @@
+.porject{
+    width: 100%;
+    height: fit-content;
+    background-color: aqua;
+    padding: 50px 150px;
+    .our{
+        width: 50%;
+        height: 100px;
+        // background-color: chartreuse;
+        text-align: center;
+        font-size: 50px;
+        font-family: "Chivo", sans-serif;
+        font-weight: bold;
+        margin: auto;
+        span{
+            color: #f95803;
+        }
+        p{
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            color: rgb(75, 74, 74);
+        }
+    }
+    .tomdiv{
+        width: 100%;
+        height: 300px;
+        background-color: brown;
+        margin-top: 50px;
+        .zurag{
+            position: relative;
+            width: 30%;
+            height: 200px;
+            background-color: #f95803;
+            border-radius: 10px;
+            img{
+                
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+            .uusgalt{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background:- linear-gradient(rgba(165, 57, 57, 0.789) rgba(7, 192, 31, 0.789));
+                border-radius: 10px;
+            }
+        }
+    }
+}

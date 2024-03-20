@@ -37,7 +37,7 @@
   height: 50px;
   background-color: chartreuse;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .container .menu .logo .vseg {
@@ -81,7 +81,7 @@
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
-  margin-top: 50px;
+  margin-top: 30px;
   overflow: hidden;
 }
 .hello .zurag {
@@ -116,15 +116,17 @@
   color: #F95803;
   font-family: "Chivo", sans-serif;
   font-weight: black;
+  display: flex;
+  align-items: start;
 }
 .hello h1 span {
   color: white;
 }
 .hello .ner {
   width: 50%;
-  height: 50px;
-  margin-top: 50px;
-  font-size: 70px;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 60px;
   font-family: "Chewy", system-ui;
   color: white;
 }
@@ -139,16 +141,16 @@
 }
 .hello .ner1 {
   width: 40%;
-  height: 50px;
+  height: 30px;
   margin-top: 50px;
-  font-size: 26px;
+  font-size: 20px;
   color: white;
   font-family: "Cutive", serif;
 }
 .hello .ner2 {
   width: 25%;
   height: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -165,6 +167,7 @@
   color: #F95803;
 }
 .hello .ner3 {
+  position: relative;
   width: -moz-fit-content;
   width: fit-content;
   padding: 16px 32px;
@@ -174,6 +177,21 @@
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  box-shadow: 5px 3px 43px 4px rgba(249, 88, 3, 0.75);
+}
+.hello .ner3 .uusgah {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F95803;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hello .zurag1 {
   width: 50%;
@@ -184,40 +202,41 @@
 .about {
   width: 100%;
   height: 500px;
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 150px;
 }
 .about .about1 {
-  position: relative;
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  border: 10px solid #f95803;
-  box-shadow: 0px 0px 26px 4px rgba(255, 105, 0, 0.72);
+  width: 50%;
+  height: 100%;
 }
 .about .about1 .uusgalt {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  border-radius: 50%;
+  border: 10px solid #f95803;
+  box-shadow: -1px 6px 24px -2px #f95803;
+}
+.about .about1 .uusgalt .circle {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 90%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #f95803;
+  box-shadow: 50px 25px 49px 17px rgba(249, 88, 3, 0.75);
+}
+.about .about1 .uusgalt .circle img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-}
-.about .about1 .uusgalt img {
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow-y: visible;
-  -webkit-clip-path: inset(-15% 0 3% 0);
-          clip-path: inset(-15% 0 3% 0);
 }
 .about .about2 {
   width: 50%;
   height: 100%;
-  background-color: blue;
 }
 .about .about2 .bichig {
   width: 100%;
@@ -232,32 +251,177 @@
 }
 .about .about2 .bichig1 {
   width: 100%;
-  height: 25px;
-  background-color: chartreuse;
   font-family: "Cutive", serif;
 }
 .about .about2 .bichig2 {
   width: 100%;
   height: 130px;
-  background-color: chocolate;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
 }
 .about .about2 .bichig3 {
+  position: relative;
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 16px 36px;
-  background-color: #f95803;
   border-radius: 10px;
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
   color: white;
   margin-top: 20px;
 }
 .about .about2 .bichig3 .uusgalt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #14e236;
+  padding: 16px 36px;
+  background-color: #f95803;
+  border-radius: 10px;
+}
+
+.services {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 150px;
+}
+.services .our {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+  margin: auto;
+}
+.services .our span {
+  color: #f95803;
+}
+.services .our p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(75, 74, 74);
+}
+.services .tomdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.services .tomdiv .our1 {
+  width: 30%;
+  height: 350px;
+  background-color: #f95803;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .tomdiv .our1 .icon1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.services .tomdiv .our1 .garchig {
+  width: 100%;
+  height: 20px;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.services .tomdiv .our1 .garchig span {
+  color: white;
+}
+.services .tomdiv .our1 .text {
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(75, 74, 74);
+  margin-top: 10px;
+}
+.services .tomdiv .our1 .bottom {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 16px 36px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: -1px 6px 24px -2px white;
+}
+.services .tomdiv .our1 .bottom .uusgalt0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.porject {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: aqua;
+  padding: 50px 150px;
+}
+.porject .our {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+  margin: auto;
+}
+.porject .our span {
+  color: #f95803;
+}
+.porject .our p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(75, 74, 74);
+}
+.porject .tomdiv {
+  width: 100%;
+  height: 300px;
+  background-color: brown;
+  margin-top: 50px;
+}
+.porject .tomdiv .zurag {
+  position: relative;
+  width: 30%;
+  height: 200px;
+  background-color: #f95803;
+  border-radius: 10px;
+}
+.porject .tomdiv .zurag img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.porject .tomdiv .zurag .uusgalt {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: -linear-gradient(rgba(165, 57, 57, 0.789) rgba(7, 192, 31, 0.789));
+  border-radius: 10px;
 }/*# sourceMappingURL=sky.css.map */
