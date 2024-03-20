@@ -102,8 +102,8 @@
 }
 .hello .zurag .zurag0 img {
   position: absolute;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow-y: visible;
@@ -422,6 +422,38 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: -linear-gradient(rgba(165, 57, 57, 0.789) rgba(7, 192, 31, 0.789));
+  background: linear-gradient(rgba(245, 62, 16, 0.952), rgba(248, 134, 134, 0.623));
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  visibility: hidden;
+}
+.porject .tomdiv .zurag .uusgalt .garchig {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.porject .tomdiv .zurag .uusgalt .garchig span {
+  color: black;
+}
+.porject .tomdiv .zurag .uusgalt .text {
+  width: 70%;
+  color: rgb(75, 74, 74);
+  text-align: center;
+  margin-top: 10px;
+}
+.porject .tomdiv .zurag .uusgalt .icon0 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.porject .tomdiv .zurag:hover .uusgalt {
+  visibility: visible;
 }/*# sourceMappingURL=sky.css.map */
