@@ -3,9 +3,19 @@
     height: fit-content;
     // background-color: rgb(214, 126, 11);
     padding: 50px 150px;
+    @include breakpoint-down(1124px){
+        padding: 50px 100px;
+      }
+      @include breakpoint-down(990px){
+        padding: 50px 80px;
+      }
+    //   @include breakpoint-down(634px){
+    //     padding: 20px 50px;
+    //   }
+    
     .our{
         width: 50%;
-        height: 100px;
+        height: fit-content;
         // background-color: chartreuse;
         text-align: center;
         font-size: 50px;
@@ -19,20 +29,46 @@
             font-size: 16px;
             font-family: "Roboto", sans-serif;
             color: rgb(75, 74, 74);
+            @include breakpoint-down(566px){
+                font-size: 14px;
+               }
+              
         }
+        @include breakpoint-down(892px){
+           width: 70%;
+          }
+          @include breakpoint-down(682px){
+            width: 90%;
+           }
+           @include breakpoint-down(566px){
+          font-size: 40px;
+           }
+           @include breakpoint-down(442px){
+            // width: 70%;
+            font-size: 35px;
+            width: 100%;
+           }
     }
     .tomdiv{
         width: 100%;
-        height: 100%;
+        height: fit-content;
         // background-color: aqua;
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 20px;
+        
+        @include breakpoint-down(850px){
+            flex-direction: column;
+            align-items: center;
+          }
+          @include breakpoint-down(892px){
+            margin-top: 30px;
+           }
         .our1{
             width: 30%;
-            height: 350px;
+            height: fit-content;
             background-color: #f95803;
-            margin-top: 50px;
+            margin-top: 20px;
             border-radius: 10px;
             display: flex;
             flex-direction: column;
@@ -41,6 +77,22 @@
                 width: 100px;
                 height: 100px;
                 background-color: aqua;
+                @include breakpoint-down(1264px){
+                    width: 90px;
+                    height: 90px;   
+                }
+                @include breakpoint-down(10100px){
+                    width: 70px;
+                    height: 70px;   
+                }
+                @include breakpoint-down(850px){
+                    width: 80px;
+                    height: 80px;   
+                }
+                @include breakpoint-down(399px){
+                    width: 50px;
+                    height: 50px;
+                }
                 
             }
             .garchig{
@@ -55,16 +107,22 @@
                 span{
                     color: white;
                 }
+                @include breakpoint-down(399px){
+                    font-size: 16px;
+                }
             }
             .text{
                 width: 80%;
-                height: 100px;
+                height: fit-content;
                 // background-color: cadetblue;
                 text-align: center;
                 font-size: 16px;
                 font-family: "Roboto", sans-serif;
                 color: rgb(75, 74, 74);
                 margin-top: 10px;
+                @include breakpoint-down(399px){
+                  font-size: 14px;
+                }
             }
             .bottom{
                 position: relative;
@@ -76,6 +134,7 @@
                 font-weight: bold;
                 margin-top: 20px;
                 box-shadow: -1px 6px 24px -2px white;
+                
                 .uusgalt0{
                     position: absolute;
                     top: 0;
@@ -90,10 +149,32 @@
                     align-items: center;
                     justify-content: center;
                 }
+                @include breakpoint-down(399px){
+                    padding: 14px 30px;
+                }
+                @include breakpoint-down(399px){
+                    padding: 12px 20px;
+                }
             }
+            @include breakpoint-down(850px){
+               width: 50%;
+              }
+            @include breakpoint-down(716px){
+                width: 70%;
+                
+            }
+            @include breakpoint-down(516px){
+            width: 80%;
+        }
+        @include breakpoint-down(470px){
+           width: 90%; 
+        }
+            @include breakpoint-down(399px){
+            width: 100%;
+        }
+        @include breakpoint-down(830px){
+            margin-top: 20px;
         }
     }
-    
-
-
+  }
 }
