@@ -531,11 +531,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .services .tomdiv .our1 .icon1 {
   width: 100px;
   height: 100px;
   background-color: aqua;
+}
+.services .tomdiv .our1 .icon1 i {
+  width: 100%;
+  height: 100%;
 }
 @media only screen and (max-width: 1263px) {
   .services .tomdiv .our1 .icon1 {
@@ -598,6 +604,7 @@
   width: -moz-fit-content;
   width: fit-content;
   padding: 16px 36px;
+  background-color: rgb(223, 7, 7);
   border-radius: 5px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -779,4 +786,63 @@
   font-family: "Dancing Script", cursive;
   color: #F95803;
   letter-spacing: 3mm;
+}
+
+.contactme {
+  width: 100%;
+  height: 500px;
+  padding: 50px 150px;
+  display: flex;
+}
+.contactme .me1 {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactme .me1 .get {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  font-size: 25px;
+  color: #F95803;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.contactme .me1 .get1 {
+  width: 80%;
+  height: 40px;
+  background-color: #E6E6E6;
+  gap: 10px;
+  margin: auto;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.199);
+  padding: 10px 10px;
+}
+.contactme .me1 .get3 {
+  width: 80%;
+  height: 150px;
+  background-color: #E6E6E6;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.199);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.contactme .me1 .get4 {
+  width: 80%;
+  height: 40px;
+  background-color: #F95803;
+  gap: 10px;
+  margin: auto;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }/*# sourceMappingURL=sky.css.map */
