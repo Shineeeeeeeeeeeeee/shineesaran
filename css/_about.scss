@@ -113,6 +113,15 @@
                     font-size: 23px;
                 }
             }
+            .me1:hover{
+                color: black;
+                transition: 1s;
+                
+            }
+        }
+        .bichig:hover{
+            color: #f95803;
+            transition: 1s;
         }
         .bichig1{
             width: 100%;
@@ -188,7 +197,8 @@
             
             }
             .bichig3:hover .uusgalt{
-                color: aqua;
+                color: cadetblue;
+                transition: 1s;
             }
             @include breakpoint-down(850px){
                 width: 100%;

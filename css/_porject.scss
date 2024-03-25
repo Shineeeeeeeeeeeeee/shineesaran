@@ -111,7 +111,8 @@
                     margin-top: 10px;
                 }
                 .icon0:hover i {
-                    color: aqua;
+                    color: cadetblue;
+                    transition: 1s;
                 }
             }
             @include breakpoint-down(850px){

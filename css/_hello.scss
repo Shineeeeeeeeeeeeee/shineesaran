@@ -18,6 +18,11 @@
             align-items: start;
             span{
                 color:  white;
+
+            }
+            span:hover {
+                color: #F95803;
+                transition: 1s;
             }
             @include breakpoint-down(1200px){
               font-size: 70px;
@@ -50,7 +55,10 @@
                                                 font-size: 35px;
                                                   }
         }
-        
+        h1:hover{
+            color: white;
+            transition: 1s;
+        }
         .ner{
             width: 100%;
             height: 30px;
@@ -63,6 +71,7 @@
                 color: #F95803;
                 .gold{
                     color:white;
+                    transition: 1s;
                 }
                 
             }
@@ -176,7 +185,8 @@
                           
                             } 
                             .icon:hover i {
-                                color: aqua;
+                                color: cadetblue;
+                                transition: 1s;
                             }
         
         .ner3{ 
@@ -211,7 +221,8 @@
         
         }
          .ner3 .uusgah:hover {
-            color: aqua;
+            transition: 1s;
+            color: cadetblue;
         }
         @include breakpoint-down(1200px){
             width: 40%;

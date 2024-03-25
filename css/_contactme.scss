@@ -42,6 +42,10 @@
             
            
         }
+        .get:hover{
+            color: cadetblue;
+            transition: 1s;
+        }
         .get1{
             width: 80%;
             height: 40px;
@@ -86,7 +90,8 @@
                }
         }
         .get4:hover{
-            color: aqua;
+            color: cadetblue;
+            transition: 1s;
         }
         .zurag{
             width: 100%;
@@ -118,6 +123,10 @@
                 color: rgba(0, 0, 0, 0.342)
                
             }
+            .bichig:hover{
+                color: cadetblue;
+                transition: 1s;
+            }
             @include breakpoint-down(850px){
                 gap: 10px;
                }
@@ -141,10 +150,12 @@
                     color: #F95803;
                     margin-top: 15px;
                 }
+                .icon1:hover{
+                    color: cadetblue;
+                    transition: 1s;
+                }
             }
-            .icondiv:hover .icon1{
-                color: aqua;
-            }
+             
             
           
         }

@@ -74,6 +74,9 @@
                     color: #F95803;
                 }
             }
+            .home1:hover {
+                color: #F95803;
+            }
             @include breakpoint-down (1220px){
                margin: auto;
             }
