@@ -163,6 +163,9 @@
                     padding: 12px 20px;
                 }
             }
+            .bottom:hover .uusgalt0{
+                color: aqua;
+            }
             @include breakpoint-down(850px){
                width: 50%;
               }

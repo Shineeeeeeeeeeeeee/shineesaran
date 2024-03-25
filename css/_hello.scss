@@ -173,7 +173,11 @@
                             height: 30px;
                             margin-top: 20px;
                               }
-            }
+                          
+                            } 
+                            .icon:hover i {
+                                color: aqua;
+                            }
         
         .ner3{ 
             position: relative;
@@ -205,6 +209,9 @@
     
             }
         
+        }
+         .ner3 .uusgah:hover {
+            color: aqua;
         }
         @include breakpoint-down(1200px){
             width: 40%;

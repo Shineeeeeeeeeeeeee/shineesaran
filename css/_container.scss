@@ -3,7 +3,6 @@
     height: fit-content;
     // background-color: #e61e1e;
     padding: 50px 150px;
-    position: sticky;
    
     @include breakpoint-down(1040px){
         padding: 50px 100px;
@@ -57,6 +56,9 @@
             // background-color: #d2691e;
             display: flex;
             justify-content: space-between;
+            a{
+                text-decoration: none;
+            }
 
             .home1{
                 width: 100px;
