@@ -326,6 +326,7 @@
 }
 .hello .bagtaah .ner2 .icon i {
   color: #F95803;
+  transition: 1s;
 }
 @media only screen and (max-width: 1199px) {
   .hello .bagtaah .ner2 .icon {
@@ -356,8 +357,9 @@
   }
 }
 .hello .bagtaah .icon:hover i {
-  color: cadetblue;
-  transition: 1s;
+  width: 70px;
+  height: 70px;
+  color: rgb(5, 245, 253);
 }
 .hello .bagtaah .ner3 {
   position: relative;
@@ -390,10 +392,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 .hello .bagtaah .ner3 .uusgah:hover {
-  transition: 1s;
-  color: cadetblue;
+  color: rgb(5, 243, 252);
+}
+.hello .bagtaah .ner3:hover {
+  padding: 20px 40px;
 }
 @media only screen and (max-width: 1199px) {
   .hello .bagtaah {
@@ -662,6 +667,7 @@
   background-color: #f95803;
   border-radius: 10px;
   box-shadow: 5px 3px 43px 4px rgba(249, 88, 3, 0.75);
+  transition: 1s;
 }
 @media only screen and (max-width: 1325px) {
   .about .about2 .bichig3 {
@@ -679,8 +685,7 @@
   }
 }
 .about .about2 .bichig3:hover .uusgalt {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(6, 240, 248);
 }
 @media only screen and (max-width: 849px) {
   .about .about2 {
@@ -793,6 +798,7 @@
   align-items: center;
   font-size: 50px;
   color: white;
+  transition: 1s;
 }
 @media only screen and (max-width: 1263px) {
   .services .tomdiv .our1 .icon1 {
@@ -819,8 +825,7 @@
   }
 }
 .services .tomdiv .our1 .icon1:hover {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(4, 243, 252);
 }
 .services .tomdiv .our1 .garchig {
   width: 100%;
@@ -879,6 +884,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 1s;
 }
 @media only screen and (max-width: 398px) {
   .services .tomdiv .our1 .bottom {
@@ -891,8 +897,7 @@
   }
 }
 .services .tomdiv .our1 .bottom:hover .uusgalt0 {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(3, 242, 250);
 }
 @media only screen and (max-width: 849px) {
   .services .tomdiv .our1 {
@@ -1185,10 +1190,10 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+  transition: 1s;
 }
 .contactme .me1 .get:hover {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(4, 240, 248);
 }
 .contactme .me1 .get1 {
   width: 80%;
@@ -1232,6 +1237,7 @@
   justify-content: center;
   align-items: center;
   color: white;
+  transition: 1s;
 }
 @media only screen and (max-width: 849px) {
   .contactme .me1 .get4 {
@@ -1239,8 +1245,7 @@
   }
 }
 .contactme .me1 .get4:hover {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(8, 247, 255);
 }
 .contactme .me1 .zurag {
   width: 100%;
@@ -1263,10 +1268,10 @@
   display: flex;
   align-items: center;
   color: rgba(0, 0, 0, 0.342);
+  transition: 1s;
 }
 .contactme .me1 .icon .bichig:hover {
-  color: cadetblue;
-  transition: 1s;
+  color: rgb(8, 240, 248);
 }
 @media only screen and (max-width: 849px) {
   .contactme .me1 .icon {

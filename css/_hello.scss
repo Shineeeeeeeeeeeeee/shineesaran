@@ -158,9 +158,13 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
                 i{
                     color: #F95803;
+                    transition: 1s;
+
                 }
+                
                 @include breakpoint-down(1200px){
                     width: 40px;
                     // height: 80%;
@@ -185,8 +189,9 @@
                           
                             } 
                             .icon:hover i {
-                                color: cadetblue;
-                                transition: 1s;
+                                    width: 70px;
+                                    height: 70px;
+                                    color: rgb(5, 245, 253);
                             }
         
         .ner3{ 
@@ -200,6 +205,7 @@
             font-family: "Inter", sans-serif;
             font-weight: bold;
             box-shadow: 5px 3px 43px 4px rgba(249,88,3,0.75);
+            
             @include breakpoint-down(542px){
                 padding: 12px 24px;
                   }
@@ -216,13 +222,18 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transition: 1s;
+                
     
             }
         
         }
          .ner3 .uusgah:hover {
-            transition: 1s;
-            color: cadetblue;
+           
+            color: rgb(5, 243, 252);
+        }
+        .ner3:hover{
+            padding: 20px 40px;
         }
         @include breakpoint-down(1200px){
             width: 40%;
@@ -232,7 +243,6 @@
              }
              @include breakpoint-down(936px){
                 width: 60%;
-              
                 display: block;
                  } 
 

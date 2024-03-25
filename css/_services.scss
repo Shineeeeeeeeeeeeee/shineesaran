@@ -84,7 +84,7 @@
                 align-items: center;
                 font-size: 50px;
                 color: white;
-
+                transition: 1s;
                
                 @include breakpoint-down(1264px){
                     width: 90px;
@@ -105,8 +105,8 @@
                 
             }
             .icon1:hover{
-                color: cadetblue;
-                transition: 1s;
+                color: rgb(4, 243, 252);
+                
             }
             .garchig{
                 width: 100%;
@@ -160,6 +160,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    transition: 1s;
                 }
                 @include breakpoint-down(399px){
                     padding: 14px 30px;
@@ -169,8 +170,8 @@
                 }
             }
             .bottom:hover .uusgalt0{
-                color: cadetblue;
-                transition: 1s;
+                color: rgb(3, 242, 250);
+             
             }
             @include breakpoint-down(850px){
                width: 50%;

@@ -22,9 +22,6 @@
     .about1{
         width: 50%;
         height: 100%;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
         .uusgalt{
             position: relative;
             width:  400px;
@@ -168,6 +165,7 @@
             font-family: "Inter", sans-serif;
             font-weight: bold;
            
+           
             .uusgalt{
                 position: absolute;
                 top: 0;
@@ -181,6 +179,7 @@
                 background-color:  #f95803;
                 border-radius: 10px;
                 box-shadow: 5px 3px 43px 4px rgba(249,88,3,0.75);
+                transition: 1s;
                 // opacity: 0;
                 
             }
@@ -198,8 +197,8 @@
             
             }
             .bichig3:hover .uusgalt{
-                color: cadetblue;
-                transition: 1s;
+                color: rgb(6, 240, 248);
+           
             }
             @include breakpoint-down(850px){
                 width: 100%;

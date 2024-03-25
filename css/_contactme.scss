@@ -39,12 +39,13 @@
             font-weight: bold;
             display: flex;
             align-items: center;
+            transition: 1s;
             
            
         }
         .get:hover{
-            color: cadetblue;
-            transition: 1s;
+            color: rgb(4, 240, 248);
+           
         }
         .get1{
             width: 80%;
@@ -85,13 +86,14 @@
             justify-content: center;
             align-items: center;
             color: white;
+            transition: 1s;
             @include breakpoint-down(850px){
                 margin-top: 20px;
                }
         }
         .get4:hover{
-            color: cadetblue;
-            transition: 1s;
+            color: rgb(8, 247, 255);
+            
         }
         .zurag{
             width: 100%;
@@ -120,12 +122,13 @@
                 display: flex;
                 // justify-content: center;
                 align-items: center;
-                color: rgba(0, 0, 0, 0.342)
+                color: rgba(0, 0, 0, 0.342);
+                transition: 1s;
                
             }
             .bichig:hover{
-                color: cadetblue;
-                transition: 1s;
+                color: rgb(8, 240, 248);
+               
             }
             @include breakpoint-down(850px){
                 gap: 10px;
