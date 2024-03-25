@@ -1,162 +1,259 @@
 .hello{
-    position: relative;
+    
     width: 100%;
     height: fit-content;
     // background-color: aqua;
     margin-top: 30px;
-    overflow: hidden;
-    // @include breakpoint-down (1298px){
-    //     width: 60%;
-
-    // }
- 
-    
-    .zurag{
-        position: absolute;
-        width: 500px;
-        height: 400px;
-        background-color: #F95803 ;
-        top: 300px;
-        left: 695px;
-        border-radius: 50%;
-        box-shadow: -9px -4px 24px 4px rgba(255,105,0,0.72);
-        @include breakpoint-down (1300px){
-            // width: 400px;
-            // height: 300px;
-            bottom: 200px;
-            left: 600px;
-    
-        }
-        .zurag0{
-            width: 100%;
-            height: 100%;
-            background-color: #F95803;
-            border-radius: 50%;
-            @include breakpoint-down (1300px){
-                // width: 400px;
-                // height: 300px;
-                bottom: 200px;
-                left: 600px;
-        
-            }
-            img{
-                position: absolute;
-                width: 70%;
-                height: 70%;
-                object-fit: cover;
-                overflow-y: visible;
-                overflow-x: visible;
-                right: 200px;
-                bottom: 270px;
-                // 
-            }
-            @include breakpoint-down (1300px){
-                width: 50%;
-                height: 50%;
-                right: 150px;
-                bottom: 200px;
-               
-        
-            }
-            
-        }
-        
-    }
-    h1{
-        font-size: 80px;
-        color: #F95803;
-        font-family: "Chivo", sans-serif;
-        font-weight: black;
-        display: flex;
-        align-items: start;
-        span{
-            color:  white;
-        }
-    }
-    
-    .ner{
+    display: flex;
+    justify-content: space-between;
+    .bagtaah{
         width: 50%;
-        height: 30px;
-        // background-color: blueviolet;
-        margin-top: 30px;
-        font-size: 60px;
-        font-family: "Chewy", system-ui;
-        color: white;
-        .ungu1{
+        height: fit-content;
+        h1{
+            font-size: 80px;
             color: #F95803;
-            .gold{
-                color:white;
-            }
-            
-        }
-        .tseg{
-            color: #F95803;
-        }
-    }
-    .ner1{
-        width: 40%;
-        height: 30px;
-        // background-color: blueviolet;
-        margin-top: 50px;
-        font-size: 20px;
-        color: white;
-        font-family: "Cutive", serif;
-
-    }
-    .ner2{
-        width: 25%;
-        height: 50px;
-        // background-color: blueviolet;
-        margin-top: 30px;
-        display: flex;
-        justify-content: space-between;
-        .icon{
-            width: 50px;
-            height: 100%;
-            // background-color:  black;
-            border: 1px solid #F95803;
-            border-radius: 50%;
+            font-family: "Chivo", sans-serif;
+            font-weight: black;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            i{
+            align-items: start;
+            span{
+                color:  white;
+            }
+            @include breakpoint-down(1200px){
+              font-size: 70px;
+               }
+               @include breakpoint-down(1162px){
+                font-size: 60px;
+                 }
+                 @include breakpoint-down(1072px){
+                    font-size: 55px;
+                     }
+                         @include breakpoint-down(936px){
+                        font-size: 80px;
+                         }
+                         @include breakpoint-down(770px){
+                            font-size: 70px;
+                             }
+                             @include breakpoint-down(658px){
+                                font-size: 60px;
+                                 }
+                                 @include breakpoint-down(568px){
+                                    font-size: 55px;
+                                     }
+                                     @include breakpoint-down(542px){
+                                       font-size: 50px;
+                                         }
+                                         @include breakpoint-down(482px){
+                                            font-size: 40px;
+                                              }
+                                              @include breakpoint-down(426px){
+                                                font-size: 35px;
+                                                  }
+        }
+        
+        .ner{
+            width: 100%;
+            height: 30px;
+            // background-color: blueviolet;
+            margin-top: 30px;
+            font-size: 60px;
+            font-family: "Chewy", system-ui;
+            color: white;
+            .ungu1{
+                color: #F95803;
+                .gold{
+                    color:white;
+                }
+                
+            }
+            .tseg{
                 color: #F95803;
             }
-            }
+            @include breakpoint-down(1200px){
+                font-size: 50px;
+                 }
+                 @include breakpoint-down(1162px){
+                    font-size: 45px;
+                     }
+                     @include breakpoint-down(1072px){
+                        font-size: 40px;
+                         }
+                         @include breakpoint-down(936px){
+                            font-size: 60px;
+                             }
+                             @include breakpoint-down(770px){
+                                font-size: 50px;
+                                 }
+                                 @include breakpoint-down(658px){
+                                    font-size: 45px;
+                                     }
+                                     @include breakpoint-down(598px){
+                                        font-size: 40px;
+                                         }
+                                         @include breakpoint-down(542px){
+                                          font-size: 35px;
+                                             }
+                                             @include breakpoint-down(484px){
+                                               margin-top: 20px;
+                                                 }
+                                                 @include breakpoint-down(542px){
+                                                    font-size: 30px;
+                                                      }
+                                                      @include breakpoint-down(426px){
+                                                        font-size: 25px;
+                                                          }
         }
-    
-    .ner3{ 
-        position: relative;
-        width: fit-content;
-        padding: 16px 32px;
-        background-color: #F95803;
-        margin-top: 50px;
-        border-radius: 10px;
-        color: white;
-        font-family: "Inter", sans-serif;
-        font-weight: bold;
-        box-shadow: 5px 3px 43px 4px rgba(249,88,3,0.75);
-        .uusgah{
-            position: absolute;
-            top: 0;
-            left: 0;
+        .ner1{
             width: 100%;
-            height: 100%;
+            height: 30px;
+            // background-color: blueviolet;
+            margin-top: 50px;
+            font-size: 20px;
+            color: white;
+            font-family: "Cutive", serif;
+            @include breakpoint-down(1200px){
+                font-size: 15px;
+                 }
+                 @include breakpoint-down(1072px){
+                    font-size: 13px;
+                     }
+                     @include breakpoint-down(1072px){
+                        font-size: 20px;
+                         }
+                         @include breakpoint-down(770px){
+                            font-size: 15px;
+                             }
+                             @include breakpoint-down(598px){
+                                font-size: 13px;
+                                }
+                                @include breakpoint-down(484px){
+                                    margin-top: 20px;
+                                      }
+                                      @include breakpoint-down(542px){
+                                        font-size: 13px;
+                                          }
+        }
+        .ner2{
+            width: 50%;
+            height: 50px;
+            // background-color: blueviolet;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            .icon{
+                width: 50px;
+                height: 100%;
+                // background-color:  black;
+                border: 1px solid #F95803;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: #F95803;
+                }
+                @include breakpoint-down(1200px){
+                    width: 40px;
+                    // height: 80%;
+                     }
+                     @include breakpoint-down(484px){
+                       width: 30px;
+                          }
+            }
+                @include breakpoint-down(1200px){
+                   width: 60%;
+                   height: 40px;
+                    }
+                    @include breakpoint-down(542px){
+                        width: 70%;
+                        // height: 80%;
+                         }
+                         @include breakpoint-down(484px){
+                            width: 80%;
+                            height: 30px;
+                            margin-top: 20px;
+                              }
+            }
+        
+        .ner3{ 
+            position: relative;
+            width: fit-content;
+            padding: 16px 32px;
             background-color: #F95803;
+            margin-top: 50px;
             border-radius: 10px;
+            color: white;
             font-family: "Inter", sans-serif;
             font-weight: bold;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-
+            box-shadow: 5px 3px 43px 4px rgba(249,88,3,0.75);
+            @include breakpoint-down(542px){
+                padding: 12px 24px;
+                  }
+            .uusgah{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #F95803;
+                border-radius: 10px;
+                font-family: "Inter", sans-serif;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+            }
+        
         }
-    }
-    .zurag1{
-        width: 50%;
-        height: 100%;
-        background-color: brown;
-    }
+        @include breakpoint-down(1200px){
+            width: 40%;
+        }
+        @include breakpoint-down(1076px){
+            display: none;
+             }
+             @include breakpoint-down(936px){
+                width: 60%;
+                margin: auto;
+                display: block;
+                 } 
 
+    }
+    .bagtaah1{
+        position: relative;
+        width: 50%;
+        height: fit-content;
+        // background-color: aqua;
+        display: flex;
+        justify-content: center;
+           img{
+            width: 100%;
+           }
+           .zurag936{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+            // background-color: aqua;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            @include breakpoint-down (936px){
+                display: block;
+            }
+        }
+           @include breakpoint-down (1220px){
+            // width: 100%;
+            margin: auto;
+        }
+        // @include breakpoint-down(1076px){
+        //    width: 100%;
+        //      }
+             @include breakpoint-down(936px){
+                display: none;
+                 }
+    } 
 }

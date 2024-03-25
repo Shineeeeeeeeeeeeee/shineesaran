@@ -24,10 +24,27 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 50px 150px;
+  position: sticky;
+}
+@media only screen and (max-width: 1039px) {
+  .container {
+    padding: 50px 100px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .container {
+    padding: 50px 80px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .container {
+    padding: 20px 40px;
+  }
 }
 .container .menu {
   width: 100%;
-  height: 50px;
+  height: -moz-fit-content;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
 }
@@ -60,7 +77,7 @@
 }
 .container .menu .home {
   width: 600px;
-  height: 100%;
+  height: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -77,6 +94,11 @@
 .container .menu .home .home1 p {
   color: #F95803;
 }
+@media only screen and (max-width: 1219px) {
+  .container .menu .home {
+    margin: auto;
+  }
+}
 
 .maxwidth {
   max-width: 1400px;
@@ -84,61 +106,19 @@
 }
 
 .hello {
-  position: relative;
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
   margin-top: 30px;
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
-.hello .zurag {
-  position: absolute;
-  width: 500px;
-  height: 400px;
-  background-color: #F95803;
-  top: 300px;
-  left: 695px;
-  border-radius: 50%;
-  box-shadow: -9px -4px 24px 4px rgba(255, 105, 0, 0.72);
+.hello .bagtaah {
+  width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
 }
-@media only screen and (max-width: 1299px) {
-  .hello .zurag {
-    bottom: 200px;
-    left: 600px;
-  }
-}
-.hello .zurag .zurag0 {
-  width: 100%;
-  height: 100%;
-  background-color: #F95803;
-  border-radius: 50%;
-}
-@media only screen and (max-width: 1299px) {
-  .hello .zurag .zurag0 {
-    bottom: 200px;
-    left: 600px;
-  }
-}
-.hello .zurag .zurag0 img {
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow-y: visible;
-  overflow-x: visible;
-  right: 200px;
-  bottom: 270px;
-}
-@media only screen and (max-width: 1299px) {
-  .hello .zurag .zurag0 {
-    width: 50%;
-    height: 50%;
-    right: 150px;
-    bottom: 200px;
-  }
-}
-.hello h1 {
+.hello .bagtaah h1 {
   font-size: 80px;
   color: #F95803;
   font-family: "Chivo", sans-serif;
@@ -146,42 +126,182 @@
   display: flex;
   align-items: start;
 }
-.hello h1 span {
+.hello .bagtaah h1 span {
   color: white;
 }
-.hello .ner {
-  width: 50%;
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 1161px) {
+  .hello .bagtaah h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1071px) {
+  .hello .bagtaah h1 {
+    font-size: 55px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .hello .bagtaah h1 {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .hello .bagtaah h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 657px) {
+  .hello .bagtaah h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .hello .bagtaah h1 {
+    font-size: 55px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .hello .bagtaah h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .hello .bagtaah h1 {
+    font-size: 35px;
+  }
+}
+.hello .bagtaah .ner {
+  width: 100%;
   height: 30px;
   margin-top: 30px;
   font-size: 60px;
   font-family: "Chewy", system-ui;
   color: white;
 }
-.hello .ner .ungu1 {
+.hello .bagtaah .ner .ungu1 {
   color: #F95803;
 }
-.hello .ner .ungu1 .gold {
+.hello .bagtaah .ner .ungu1 .gold {
   color: white;
 }
-.hello .ner .tseg {
+.hello .bagtaah .ner .tseg {
   color: #F95803;
 }
-.hello .ner1 {
-  width: 40%;
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah .ner {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1161px) {
+  .hello .bagtaah .ner {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 1071px) {
+  .hello .bagtaah .ner {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .hello .bagtaah .ner {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .hello .bagtaah .ner {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 657px) {
+  .hello .bagtaah .ner {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 597px) {
+  .hello .bagtaah .ner {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah .ner {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 483px) {
+  .hello .bagtaah .ner {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah .ner {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .hello .bagtaah .ner {
+    font-size: 25px;
+  }
+}
+.hello .bagtaah .ner1 {
+  width: 100%;
   height: 30px;
   margin-top: 50px;
   font-size: 20px;
   color: white;
   font-family: "Cutive", serif;
 }
-.hello .ner2 {
-  width: 25%;
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah .ner1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1071px) {
+  .hello .bagtaah .ner1 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1071px) {
+  .hello .bagtaah .ner1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .hello .bagtaah .ner1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 597px) {
+  .hello .bagtaah .ner1 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 483px) {
+  .hello .bagtaah .ner1 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah .ner1 {
+    font-size: 13px;
+  }
+}
+.hello .bagtaah .ner2 {
+  width: 50%;
   height: 50px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
-.hello .ner2 .icon {
+.hello .bagtaah .ner2 .icon {
   width: 50px;
   height: 100%;
   border: 1px solid #F95803;
@@ -190,10 +310,38 @@
   justify-content: center;
   align-items: center;
 }
-.hello .ner2 .icon i {
+.hello .bagtaah .ner2 .icon i {
   color: #F95803;
 }
-.hello .ner3 {
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah .ner2 .icon {
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 483px) {
+  .hello .bagtaah .ner2 .icon {
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah .ner2 {
+    width: 60%;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah .ner2 {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 483px) {
+  .hello .bagtaah .ner2 {
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+  }
+}
+.hello .bagtaah .ner3 {
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
@@ -206,7 +354,12 @@
   font-weight: bold;
   box-shadow: 5px 3px 43px 4px rgba(249, 88, 3, 0.75);
 }
-.hello .ner3 .uusgah {
+@media only screen and (max-width: 541px) {
+  .hello .bagtaah .ner3 {
+    padding: 12px 24px;
+  }
+}
+.hello .bagtaah .ner3 .uusgah {
   position: absolute;
   top: 0;
   left: 0;
@@ -220,10 +373,61 @@
   justify-content: center;
   align-items: center;
 }
-.hello .zurag1 {
+@media only screen and (max-width: 1199px) {
+  .hello .bagtaah {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .hello .bagtaah {
+    display: none;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .hello .bagtaah {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+}
+.hello .bagtaah1 {
+  position: relative;
   width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.hello .bagtaah1 img {
+  width: 100%;
+}
+.hello .bagtaah1 .zurag936 {
+  position: absolute;
+  top: 0;
+  width: 100%;
   height: 100%;
-  background-color: brown;
+  display: none;
+}
+.hello .bagtaah1 .zurag936 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 935px) {
+  .hello .bagtaah1 .zurag936 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1219px) {
+  .hello .bagtaah1 {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .hello .bagtaah1 {
+    display: none;
+  }
 }
 
 .about {
@@ -275,12 +479,11 @@
   height: 90%;
   border-radius: 50%;
   overflow: hidden;
-  border: 10px solid #f95803;
   box-shadow: 50px 25px 49px 17px rgba(249, 88, 3, 0.75);
-}
-.about .about1 .uusgalt .circle img {
-  width: 100%;
-  height: 100%;
+  border: 10px solid #f95803;
+  opacity: 0 img;
+  opacity-width: 100%;
+  opacity-height: 100%;
 }
 @media only screen and (max-width: 1219px) {
   .about .about1 .uusgalt {
@@ -306,12 +509,12 @@
     height: 280px;
   }
 }
-.about .about1 .about2 {
+.about .about2 {
   width: 50%;
-  height: 100%;
-  background-color: blue;
+  height: -moz-fit-content;
+  height: fit-content;
 }
-.about .about1 .about2 .bichig {
+.about .about2 .bichig {
   width: 100%;
   height: 50px;
   font-family: "Chivo", sans-serif;
@@ -320,85 +523,91 @@
   font-size: 30px;
 }
 @media only screen and (max-width: 1229px) {
-  .about .about1 .about2 .bichig {
+  .about .about2 .bichig {
     margin-top: 15px;
   }
 }
 @media only screen and (max-width: 1079px) {
-  .about .about1 .about2 .bichig {
+  .about .about2 .bichig {
     font-size: 28px;
   }
 }
 @media only screen and (max-width: 1039px) {
-  .about .about1 .about2 .bichig {
+  .about .about2 .bichig {
     font-size: 26px;
   }
 }
 @media only screen and (max-width: 699px) {
-  .about .about1 .about2 .bichig {
+  .about .about2 .bichig {
     font-size: 23px;
   }
 }
-.about .about1 .about2 .bichig .me1 {
+.about .about2 .bichig .me1 {
   color: #f95803;
 }
 @media only screen and (max-width: 1079px) {
-  .about .about1 .about2 .bichig .me1 {
+  .about .about2 .bichig .me1 {
     font-size: 26px;
   }
 }
 @media only screen and (max-width: 1039px) {
-  .about .about1 .about2 .bichig .me1 {
+  .about .about2 .bichig .me1 {
     font-size: 25px;
   }
 }
 @media only screen and (max-width: 849px) {
-  .about .about1 .about2 .bichig .me1 {
+  .about .about2 .bichig .me1 {
     height: 30px;
   }
 }
 @media only screen and (max-width: 699px) {
-  .about .about1 .about2 .bichig .me1 {
+  .about .about2 .bichig .me1 {
     font-size: 23px;
   }
 }
-.about .about1 .about2 .bichig1 {
+.about .about2 .bichig1 {
   width: 100%;
   font-family: "Cutive", serif;
 }
 @media only screen and (max-width: 1079px) {
-  .about .about1 .about2 .bichig1 {
+  .about .about2 .bichig1 {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1039px) {
-  .about .about1 .about2 .bichig1 {
+  .about .about2 .bichig1 {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 699px) {
-  .about .about1 .about2 .bichig1 {
+  .about .about2 .bichig1 {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 561px) {
-  .about .about1 .about2 .bichig1 {
+  .about .about2 .bichig1 {
     font-size: 12px;
   }
 }
-.about .about1 .about2 .bichig2 {
+.about .about2 .bichig2 {
   width: 100%;
-  height: 130px;
+  height: -moz-fit-content;
+  height: fit-content;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
   line-height: 150%;
 }
 @media only screen and (max-width: 549px) {
-  .about .about1 .about2 .bichig2 {
+  .about .about2 .bichig2 {
     line-height: 200%;
   }
 }
-.about .about1 .about2 .bichig3 {
+@media only screen and (max-width: 1219px) {
+  .about .about2 .bichig2 {
+    font-size: 15px;
+  }
+}
+.about .about2 .bichig3 {
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
@@ -408,8 +617,10 @@
   border-radius: 10px;
   color: white;
   margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
-.about .about1 .about2 .bichig3 .uusgalt {
+.about .about2 .bichig3 .uusgalt {
   position: absolute;
   top: 0;
   left: 0;
@@ -420,24 +631,25 @@
   padding: 16px 36px;
   background-color: #f95803;
   border-radius: 10px;
+  box-shadow: 5px 3px 43px 4px rgba(249, 88, 3, 0.75);
 }
 @media only screen and (max-width: 1325px) {
-  .about .about1 .about2 .bichig3 {
+  .about .about2 .bichig3 {
     margin-top: 50px;
   }
 }
 @media only screen and (max-width: 1231px) {
-  .about .about1 .about2 .bichig3 {
+  .about .about2 .bichig3 {
     margin-top: 80px;
   }
 }
 @media only screen and (max-width: 378px) {
-  .about .about1 .about2 .bichig3 {
+  .about .about2 .bichig3 {
     margin-top: 50px;
   }
 }
 @media only screen and (max-width: 849px) {
-  .about .about1 .about2 {
+  .about .about2 {
     width: 100%;
   }
 }
@@ -448,14 +660,19 @@
   height: fit-content;
   padding: 50px 150px;
 }
-@media only screen and (max-width: 1123px) {
+@media only screen and (max-width: 1039px) {
   .services {
     padding: 50px 100px;
   }
 }
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 935px) {
   .services {
     padding: 50px 80px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .services {
+    padding: 20px 40px;
   }
 }
 .services .our {
@@ -537,11 +754,11 @@
 .services .tomdiv .our1 .icon1 {
   width: 100px;
   height: 100px;
-  background-color: aqua;
-}
-.services .tomdiv .our1 .icon1 i {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
 }
 @media only screen and (max-width: 1263px) {
   .services .tomdiv .our1 .icon1 {
@@ -672,9 +889,25 @@
   height: fit-content;
   padding: 50px 150px;
 }
+@media only screen and (max-width: 1039px) {
+  .porject {
+    padding: 50px 100px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .porject {
+    padding: 50px 80px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .porject {
+    padding: 20px 40px;
+  }
+}
 .porject .our {
   width: 50%;
-  height: 100px;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: center;
   font-size: 50px;
   font-family: "Chivo", sans-serif;
@@ -689,6 +922,27 @@
   font-family: "Roboto", sans-serif;
   color: rgb(75, 74, 74);
 }
+@media only screen and (max-width: 565px) {
+  .porject .our p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 891px) {
+  .porject .our {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 681px) {
+  .porject .our {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 441px) {
+  .porject .our {
+    font-size: 35px;
+    width: 100%;
+  }
+}
 .porject .tomdiv {
   width: 100%;
   height: -moz-fit-content;
@@ -697,11 +951,16 @@
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 849px) {
+  .porject .tomdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .porject .tomdiv .zurag {
   position: relative;
   width: 30%;
   height: 200px;
-  background-color: #f95803;
   border-radius: 10px;
 }
 .porject .tomdiv .zurag img {
@@ -722,7 +981,9 @@
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
+  transition: 1s;
   visibility: hidden;
+  opacity: 0;
 }
 .porject .tomdiv .zurag .uusgalt .garchig {
   margin-top: 10px;
@@ -734,7 +995,7 @@
 }
 .porject .tomdiv .zurag .uusgalt .text {
   width: 70%;
-  color: rgb(75, 74, 74);
+  color: rgb(206, 203, 203);
   text-align: center;
   margin-top: 10px;
 }
@@ -748,8 +1009,39 @@
   border-radius: 50%;
   margin-top: 10px;
 }
+@media only screen and (max-width: 849px) {
+  .porject .tomdiv .zurag {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .porject .tomdiv .zurag {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .porject .tomdiv .zurag {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .porject .tomdiv .zurag {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 398px) {
+  .porject .tomdiv .zurag {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .porject .tomdiv .zurag {
+    margin-top: 20px;
+  }
+}
 .porject .tomdiv .zurag:hover .uusgalt {
   visibility: visible;
+  opacity: 1;
 }
 
 .menuhamgiintom {
@@ -790,21 +1082,41 @@
 
 .contactme {
   width: 100%;
-  height: 500px;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 50px 150px;
   display: flex;
 }
+@media only screen and (max-width: 1039px) {
+  .contactme {
+    padding: 50px 100px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .contactme {
+    padding: 50px 80px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .contactme {
+    padding: 20px 40px;
+  }
+}
 .contactme .me1 {
   width: 50%;
-  height: 100%;
+  height: 500px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  margin-top: 20px;
 }
 .contactme .me1 .get {
   width: 80%;
-  height: 50px;
+  height: 30px;
   margin: auto;
   font-size: 25px;
   color: #F95803;
@@ -823,6 +1135,11 @@
   color: rgba(0, 0, 0, 0.199);
   padding: 10px 10px;
 }
+@media only screen and (max-width: 849px) {
+  .contactme .me1 .get1 {
+    margin-top: 20px;
+  }
+}
 .contactme .me1 .get3 {
   width: 80%;
   height: 150px;
@@ -831,6 +1148,11 @@
   color: rgba(0, 0, 0, 0.199);
   padding: 10px 10px;
   border-radius: 5px;
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1 .get3 {
+    margin-top: 20px;
+  }
 }
 .contactme .me1 .get4 {
   width: 80%;
@@ -845,4 +1167,110 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1 .get4 {
+    margin-top: 20px;
+  }
+}
+.contactme .me1 .zurag {
+  width: 100%;
+  height: 65%;
+}
+.contactme .me1 .zurag img {
+  width: 100%;
+  height: 100%;
+}
+.contactme .me1 .icon {
+  width: 100%;
+  height: 35%;
+  display: flex;
+}
+.contactme .me1 .icon .bichig {
+  width: 200px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.342);
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1 .icon {
+    gap: 10px;
+  }
+}
+.contactme .me1 .icon .icondiv {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactme .me1 .icon .icondiv .icon1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #F95803;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F95803;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .contactme .me1 {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .contactme .me1 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .contactme .me1 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 398px) {
+  .contactme .me1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1 {
+    margin-top: 20px;
+  }
+}
+.contactme .me1-2 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1-2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+.contactme .me1-1 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+@media only screen and (max-width: 849px) {
+  .contactme .me1-1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .contactme {
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=sky.css.map */
