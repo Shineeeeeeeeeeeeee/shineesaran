@@ -1190,6 +1190,9 @@
     margin-top: 20px;
   }
 }
+.contactme .me1 .get4:hover {
+  color: aqua;
+}
 .contactme .me1 .zurag {
   width: 100%;
   height: 65%;
@@ -1234,6 +1237,9 @@
   justify-content: center;
   color: #F95803;
   margin-top: 15px;
+}
+.contactme .me1 .icon .icondiv:hover .icon1 {
+  color: aqua;
 }
 @media only screen and (max-width: 849px) {
   .contactme .me1 {
