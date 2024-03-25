@@ -9,6 +9,16 @@
        display: block;
 
     }
+    @include breakpoint-down(1040px){
+        padding: 0px 100px;
+    }
+    @include breakpoint-down(936px){
+      padding: 0px 80px;
+    }
+
+      @include breakpoint-down(850px){
+        padding: 0px 40px;
+       }
     .logoehlel{
         width: 100%;
         height: 100%;

@@ -408,7 +408,6 @@
 @media only screen and (max-width: 935px) {
   .hello .bagtaah {
     width: 60%;
-    margin: auto;
     display: block;
   }
 }
@@ -529,6 +528,7 @@
   .about .about1 .uusgalt {
     width: 280px;
     height: 280px;
+    margin-left: -70px;
   }
 }
 .about .about2 {
@@ -1101,6 +1101,21 @@
 @media only screen and (max-width: 1219px) {
   .menuhamgiintom {
     display: block;
+  }
+}
+@media only screen and (max-width: 1039px) {
+  .menuhamgiintom {
+    padding: 0px 100px;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .menuhamgiintom {
+    padding: 0px 80px;
+  }
+}
+@media only screen and (max-width: 849px) {
+  .menuhamgiintom {
+    padding: 0px 40px;
   }
 }
 .menuhamgiintom .logoehlel {
